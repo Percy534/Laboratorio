@@ -1,0 +1,27 @@
+
+
+body {
+    background: #EDECED;
+    color: #000;
+}
+/*{
+    margin: 0;
+    padding: 0;
+    color: red;
+}*/
+
+h1{
+    color: #597B6A;
+    font-size: 50px;
+}
+p a{
+    font-size: 20px;
+}
+
+.white{
+    color: #fff
+}
+a[href="#"]{
+    color:#fff
+    font-size 30px;
+}
