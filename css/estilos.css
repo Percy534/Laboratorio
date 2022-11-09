@@ -65,9 +65,6 @@ h2{
     color: #fff
 }
 a[href="#"]{
-    color:#595454
-    font-size 30px;
-    border-radius: 10%;
     text-decoration: none;
 }
 .buscar{
@@ -114,9 +111,9 @@ a[href="#"]{
     text-decoration: none;
     color: #f5f5f5;
     text-align: center;
-    margin: 8%;
-    margin-left: 43%;
-    margin-right: 43%;
+    margin-top: 10%;
+    margin-inline: 33em;
+    padding: 0.4em;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -130,6 +127,18 @@ a[href="#"]{
     color: #f5f5f5;
     text-align: center;
     margin-right: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.botones-verdes3{
+    background: #597B6A;
+    text-decoration: none;
+    color: #f5f5f5;
+    margin-left: 45%;
+    padding: 0.4em;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
