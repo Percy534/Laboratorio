@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../imgs/GL.ico">
+  <!--bootstrap CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!--flickity CSS only -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+</head>
+
+<body>
+  <section>
+    <div class="d-flex justify-content-center mt-4">
+      <header class="header d-flex justify-content-around align-items-center position-fixed">
+        <div class="d-flex align-items-center">
+          <img class="logo-size" src="../imgs\GL.png" title="GastroLife" alt="Logo GastroLife">
+          <a href="principal.html" class="logo-txt title-m">GastroLife</a>
+        </div>
+
+
+        <div class="options">
+          <a href="categorias.html" class="botones-blancos">categorias</a>
+          <a href="ocaciones.html" class="botones-blancos">para cada ocacion</a>
+          <a href="categorias" class="botones-blancos">Recetas más votadas</a>
+        </div>
+
+        <div class="buscador">
+          <img src="../imgs/iconos/buscar.png" title="Buscar" width="30" height="30" alt="Buscar">
+          <input class="botones-blancos text-center" type="text" placeholder="Escribe tu receta" size="" maxlength="20"
+            name="buscar" id="buscar">
+        </div>
+      </header>
+    </div>
+
+    <!-- Flickity HTML init -->
+
+    <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+      <img src="../imgs/Recetas/Almuerzo/salmon.jpg" alt="salmon" />
+      <img src="../imgs/Recetas/Almuerzo/pasta.jpg" alt="pasta" />
+      <img src="../imgs/Recetas/Almuerzo/salmon.jpg" alt="salmon" />
+      <img src="../imgs/Recetas/Almuerzo/pasta.jpg" alt="pasta" />
+      <img src="../imgs/Recetas/Almuerzo/salmon.jpg" alt="salmon" />
+      <img src="../imgs/Recetas/Almuerzo/pasta.jpg" alt="pasta" />
+    </div>
+
+    <!-- top 10 recetas-->
+
+    <div class="botones-verdes">Recetas mejor valoradas</div>
+
+    <div class="card-group marg">
+      <div class="card">
+        <img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">100</span>
+          </a>
+          <div class="card-title botones-verdes2">Avena con arandanos</div>
+          <p class="card-text">7 min.</p>
+          <div class="card-title dificultad">Fácil</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">95</span>
+          </a>
+          <div class="card-title botones-verdes2">w
+
+            afles</div>
+          <p class="card-text">25 min.</p>
+          <div class="card-title dificultad">Media</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">90</span>
+          </a>
+          </button>
+          <div class="card-title botones-verdes2">coctel de kiwi</div>
+          <p class="card-text">15 min.</p>
+          </button>
+          <div class="card-title dificultad">Media</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Almuerzo/lasagna-gc5add5e7a_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">85</span>
+          </a>
+          </button>
+          <div class="card-title botones-verdes2">Lasaña</div>
+          <p class="card-text">30 min.</p>
+          <div class="card-title dificultad">Difícil</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Desayuno/breakfast-g63652c62f_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">73</span>
+          </a>
+          </button>
+          <div class="card-title botones-verdes2">tostadas con huevo</div>
+          <p class="card-text">10 min.</p>
+          <div class="card-title dificultad">Fácil</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card-group marg">
+      <div class="card">
+        <img src="../imgs/Recetas/Bebidas/coffee-gb632fdde8_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">60</span>
+          </a>
+          <div class="card-title botones-verdes2">cafe con leche</div>
+          <p class="card-text">10 min.</p>
+          <div class="card-title dificultad">Fácil</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Sopas/lentil-soup-with-mixed-ingredients-and-herbs-in-white-bowl-with-spoon.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">55</span>
+          </a>
+          <div class="card-title botones-verdes2">sopa</div>
+          <p class="card-text">25 min.</p>
+          <div class="card-title dificultad">Media</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Bebidas/carrot-juice-gc058f4e9b_1920.jpg" class=card-img-top" alt="...">
+        <div class="card-body">
+
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">50</span>
+          </a>
+          </button>
+          <div class="card-title botones-verdes2">jugo de zanahoria</div>
+          <p class="card-text">15 min.</p>
+          </button>
+          <div class="card-title dificultad">Media</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Almuerzo/pasta.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">45</span>
+          </a>
+          </button>
+          <div class="card-title botones-verdes2">ensalada de pasta</div>
+          <p class="card-text">20 min.</p>
+          <div class="card-title dificultad">Medio</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Sopas/thai-food-tom-yum-kung-or-river-prawn-spicy-soup.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+
+          <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
+            <span class="badge text-bg-secondary">43</span>
+          </a>
+          </button>
+          <div class="card-title botones-verdes2">sopa thailandesa</div>
+          <p class="card-text">30 min.</p>
+          <div class="card-title dificultad">medio</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Para cada Ocacion -->
+
+    <a href="ocaciones.html" class="botones-verdes3">Para cada ocación</a>
+
+    <div class="card-group marg">
+      <div class="card">
+        <img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-title botones-verdes2">Todas las recetas</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-title botones-verdes2">Cumpleaños</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          </button>
+          <div class="card-title botones-verdes2">Día del padre</div>
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Almuerzo/lasagna-gc5add5e7a_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          </button>
+          <div class="card-title botones-verdes2">Día de la madre</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-group marg margin_rl">
+      <div class="card">
+        <img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-title botones-verdes2">Todas las recetas</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-title botones-verdes2">Cumpleaños</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Categorias-->
+
+    <a href="ocaciones.html" class="botones-verdes3">Recetas de todo tipo</a>
+
+    <div class="card-group marg">
+      <div class="card">
+        <img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-title botones-verdes2">Desayunos</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Almuerzo/food-g28e8c6a38_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-title botones-verdes2">Almuerzos</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Sopas/bottom-view-star-soup-in-bowl-on-yellow-tablecloth-on-dark.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          </button>
+          <div class="card-title botones-verdes2">Sopas</div>
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Bebidas/cup-gec5aef72f_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          </button>
+          <div class="card-title botones-verdes2">Bebidas</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../imgs/Recetas/Postres/cake-g66f6e9aba_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+
+          <div class="card-title botones-verdes2">Postres</div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <a href="principal.html" class="logo"></a>
+    <center> <img src="../imgs\GL.png" title="GastroLife" width="90" height="90" alt="Logo GastroLife">
+    </center>
+    <br>
+    <center>
+      <img src="../imgs/iconos/face.png" title="Facebook" alt="Facebook" width="35px" />
+      <img src="../imgs/iconos/instagram.png" title="Instagram" alt="instagram" width="35px" />
+      <img src="../imgs/iconos/youtube.png" title="Youtube" alt="youtube" width="35px" />
+      <img src="../imgs/iconos/tiktok.png" title="TikTok" alt="tiktok" width="35px" />
+    </center>
+    <br>
+
+    <h4 class="copyright">2022, GastroLife. Marca Registrada por O&P, S.A. Esparza (Costa Rica)</h4>
+
+  </section>
+</body>
+
+</html>

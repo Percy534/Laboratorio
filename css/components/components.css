@@ -1,0 +1,45 @@
+
+.dificultad {
+    background: var(--clr-grey);
+    color: var(--clr-white);
+    text-align: center;
+    border-radius: .9375rem;
+}
+
+.botones-blancos {
+    background: var(--clr-white);
+    text-decoration: none;
+    color: var(--clr-grey);
+    padding: 0.4em;
+    border-radius: .9375rem;
+}
+
+.botones-verdes {
+    background: var(--clr-green);
+    text-decoration: none;
+    color: var(--clr-white);
+    text-align: center;
+    margin-top: 10%;
+    margin-inline: 27em;
+    padding: 0.4em;
+    border-radius: .9375rem;
+
+}
+
+.botones-verdes2 {
+    background: var(--clr-green);
+    text-decoration: none;
+    color: var(--clr-white);
+    text-align: center;
+    margin-right: center;
+    border-radius: .9375rem;
+}
+
+.botones-verdes3 {
+    background: var(--clr-green);
+    text-decoration: none;
+    color: var(--clr-white);
+    margin-left: 43%;
+    padding: 0.4em;
+    border-radius: .9375rem;
+}

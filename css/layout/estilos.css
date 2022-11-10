@@ -1,0 +1,60 @@
+.logo-txt {
+    font-size: 1.7em;
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+.copyright {
+    text-align: center;
+    color: var(--clr-grey);
+}
+
+.white {
+    color: #fff
+}
+
+a[href="#"] {
+    text-decoration: none;
+}
+
+.margin_rl {
+
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+nav a:hover {
+    color: #595454;
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: row;
+    }
+
+    /* external css: flickity.css */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+    }
+
+    .carousel {
+        background: var(--clr-grey);
+        margin-top: 10rem;
+    }
+
+    .carousel img {
+        display: block;
+        height: 100px;
+    }
+
+    @media screen and (min-width: 768px) {
+        .carousel img {
+            height: 100px;
+        }
+    }
+}
