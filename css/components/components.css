@@ -34,12 +34,64 @@
     margin-right: center;
     border-radius: .9375rem;
 }
+.botones-verdes4 {
 
-.botones-verdes3 {
     background: var(--clr-green);
     text-decoration: none;
+    position: relative;
     color: var(--clr-white);
-    margin-left: 43%;
-    padding: 0.4em;
-    border-radius: .9375rem;
+    margin-top: 5%;
+    margin-inline: 1em;
+    height: 10%;
+    padding: 0.3em;
+    border-radius: .5375rem;
+}
+
+.titulo-verde{
+    color: var(--clr-green);
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.card {
+    margin: 10px 10px 10px 10px!important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px
+}
+
+.card-recipe {
+    margin-left: 1%;
+    margin-right: 10%;
+    width: 450px;
+    height: 450px;
+
+}
+.recipe-img{
+    width: 31.25rem;
+}
+
+/* codigo agregado choscar  */
+.card-recipe-crown {
+    width: 30px;
+    height: 30px;
+    margin-left: 1%;
+}
+/* codigo agregado choscar  */
+
+.recipe-body {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1000px;
+    height: 500px;
+}
+
+/* codigo agregado choscar  */
+.recipe-text {
+    position: absolute;
+    margin-right: 7%;
+    top: 150px;
+    right: 50px;
+    width: 450px;
+    height: 450px;
+
 }

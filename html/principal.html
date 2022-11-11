@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <title>GastroLife</title>
   <link rel="stylesheet" type="text/css" href="../css/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="../imgs/GL.ico">
   <!--bootstrap CSS only -->
@@ -16,16 +15,14 @@
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <!-- JavaScript -->
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-
 </head>
 
 <body>
   <section>
-    <div class="d-flex justify-content-center mt-4">
+    <div class="d-flex justify-content-center mt-5">
       <header class="header d-flex justify-content-around align-items-center position-fixed">
         <div class="d-flex align-items-center">
-          <img class="logo-size" src="../imgs\GL.png" title="GastroLife" alt="Logo GastroLife">
+          <a href="principal.html"><img class="logo-size" src="../imgs\GL.png" title="GastroLife" alt="Logo GastroLife"></a>
           <a href="principal.html" class="logo-txt title-m">GastroLife</a>
         </div>
 
@@ -33,7 +30,7 @@
         <div class="options">
           <a href="categorias.html" class="botones-blancos">categorias</a>
           <a href="ocaciones.html" class="botones-blancos">para cada ocacion</a>
-          <a href="categorias" class="botones-blancos">Recetas más votadas</a>
+          <a href="principal.html" class="botones-blancos">Recetas más votadas</a>
         </div>
 
         <div class="buscador">
@@ -46,7 +43,7 @@
 
     <!-- Flickity HTML init -->
 
-    <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+    <div class="carousel carousel-img mt-5" data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
       <img src="../imgs/Recetas/Almuerzo/salmon.jpg" alt="salmon" />
       <img src="../imgs/Recetas/Almuerzo/pasta.jpg" alt="pasta" />
       <img src="../imgs/Recetas/Almuerzo/salmon.jpg" alt="salmon" />
@@ -57,9 +54,10 @@
 
     <!-- top 10 recetas-->
 
-    <div class="botones-verdes">Recetas mejor valoradas</div>
+      <h5 class="botones-verdes">Recetas mejor valoradas</h5>
 
-    <div class="card-group marg">
+
+    <div class="card-group mt-5">
       <div class="card">
         <img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -77,9 +75,7 @@
           <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
             <span class="badge text-bg-secondary">95</span>
           </a>
-          <div class="card-title botones-verdes2">w
-
-            afles</div>
+          <div class="card-title botones-verdes2">wafles</div>
           <p class="card-text">25 min.</p>
           <div class="card-title dificultad">Media</div>
         </div>
@@ -87,7 +83,6 @@
       <div class="card">
         <img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-
           <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
             <span class="badge text-bg-secondary">90</span>
           </a>
@@ -126,8 +121,7 @@
       </div>
     </div>
 
-
-    <div class="card-group marg">
+    <div class="card-group mb-5">
       <div class="card">
         <img src="../imgs/Recetas/Bebidas/coffee-gb632fdde8_1920.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -196,9 +190,10 @@
 
     <!-- Para cada Ocacion -->
 
-    <a href="ocaciones.html" class="botones-verdes3">Para cada ocación</a>
+      <h5 class="botones-verdes">Para cada ocación</h5>
+    
 
-    <div class="card-group marg">
+    <div class="card-group mt-5">
       <div class="card">
         <img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -226,28 +221,29 @@
           <div class="card-title botones-verdes2">Día de la madre</div>
         </div>
       </div>
-    </div>
-    <div class="card-group marg margin_rl">
       <div class="card">
-        <img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <div class="card-title botones-verdes2">Todas las recetas</div>
-        </div>
+      <img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <div class="card-title botones-verdes2">Día del niño</div>
       </div>
+    </div>
+  
       <div class="card">
         <img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <div class="card-title botones-verdes2">Cumpleaños</div>
+          <div class="card-title botones-verdes2">Navidad</div>
         </div>
       </div>
 
+    </div>
+    
     </div>
 
     <!-- Categorias-->
 
-    <a href="ocaciones.html" class="botones-verdes3">Recetas de todo tipo</a>
+    <h5 class="botones-verdes">Recetas de todo tipo</h5>
 
-    <div class="card-group marg">
+    <div class="card-group mt-5 mb-5">
       <div class="card">
         <img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -300,7 +296,7 @@
     </center>
     <br>
 
-    <h4 class="copyright">2022, GastroLife. Marca Registrada por O&P, S.A. Esparza (Costa Rica)</h4>
+    <h6 class="copyright">2022, GastroLife. Marca Registrada por O&P, S.A. Esparza (Costa Rica)</h6>
 
   </section>
 </body>
