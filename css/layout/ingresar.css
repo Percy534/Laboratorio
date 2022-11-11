@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card {
+    width: 190px;
+    padding: 1.9rem 1.2rem;
+    text-align: center;
+    background: hsla(150, 16%, 41%);
+}
+
+/*Inputs*/
+.field {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    background-color: #1f2029;
+    border-radius: 4px;
+    padding: .5em 1em;
+}
+
+.input-icon {
+    height: 1em;
+    width: 1em;
+    fill: #ffeba7;
+}
+
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+}
+.mt-login{
+    margin-top: 12.0rem;
+}
+
