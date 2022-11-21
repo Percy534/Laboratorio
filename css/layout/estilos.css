@@ -18,7 +18,6 @@ a[href="#"] {
 }
 
 .margin_rl {
-
     margin-left: 20rem;
     margin-right: 20rem;
 }
@@ -30,9 +29,8 @@ nav a:hover {
 @media (max-width:700px) {
     header {
         flex-direction: row;
-    }
 
-    
+    }
 
     /* external css: flickity.css */
 
@@ -44,14 +42,16 @@ nav a:hover {
         font-family: sans-serif;
     }
 
-    .carousel {
+    .carousel_conf {
         background: var(--clr-grey);
         margin-top: 10rem;
+        scale: 0.9.9;
     }
 
     .carousel-img {
         display: block;
         height: 6.25rem;
+        scale: 0.9.9;
     }
 
     @media screen and (min-width: 768px) {
@@ -60,45 +60,47 @@ nav a:hover {
         }
     }
 }
+
 .contenedor {
-	
-	width: 450px;
-	height: 350px;
-	padding: 20px;
-	background: #fff;
-	overflow: auto;
-	font-family: 'Open Sans';
-	border-radius: 4px;
+
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    background: #fff;
+    overflow: auto;
+    font-family: 'Open Sans';
+    border-radius: 4px;
 }
 
 .contenedor h1 {
-	font-size: 38px;
-	font-weight: 600;
-	color: #000;
+    font-size: 38px;
+    font-weight: 600;
+    color: #000;
 }
 
 .contenedor hr {
-	background: #ff9d00;
-	width: 20%;
-	height: 5px;
-	border: none;
-	margin: 20px 0;
-	border-radius: 50px;
+    background: #ff9d00;
+    width: 20%;
+    height: 5px;
+    border: none;
+    margin: 20px 0;
+    border-radius: 50px;
 }
 
 p {
-	margin-bottom: 20px;
-	line-height: 28px;
-	font-size: 16px;
-	color: #414141;
+    margin-bottom: 20px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #414141;
 }
+
 /* Scroll Personalizado */
 
 .contenedor::-webkit-scrollbar {
-	width: 7px;
+    width: 7px;
 }
 
 .contenedor::-webkit-scrollbar-thumb {
-	background: #ff9d00;
-	border-radius: 5px;
+    background: #ff9d00;
+    border-radius: 5px;
 }

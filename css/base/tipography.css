@@ -2,14 +2,17 @@
     font-size: var(--fs-s);
     font-weight: var(--fw-s);
 }
+
 .title-m{
     font-size: var(--fs-m);
     font-weight: var(--fw-m);
 }
+
 .title-l{
     font-size: var(--fs-l);
     font-weight: var(--fw-l);
 }
+
 .title-xl{
     font-size: var(--fs-xl);
     font-weight: var(--fw-xl);
