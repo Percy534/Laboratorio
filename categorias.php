@@ -30,7 +30,7 @@
                 <div class="options">
                     <a href="index.php" class="botones-blancos">Inicio</a>
                     <a href="ocaciones.php" class="botones-blancos">para cada ocacion</a>
-                    <a href="principal.php" class="botones-blancos">Recetas más votadas</a>
+                    <a href="index.php" class="botones-blancos">Recetas más votadas</a>
                 </div>
 
                 <div>

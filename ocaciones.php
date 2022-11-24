@@ -32,7 +32,7 @@
                 <div class="options">
                     <a href="index.php" class="botones-blancos">Inicio</a>
                     <a href="categorias.php" class="botones-blancos">Categorias</a>
-                    <a href="principal.php" class="botones-blancos">Recetas más votadas</a>
+                    <a href="index.php" class="botones-blancos">Recetas más votadas</a>
                 </div>
 
                 <div>
