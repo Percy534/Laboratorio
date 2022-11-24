@@ -1,0 +1,72 @@
+/* https://fonts.google.com/specimen/DM+Sans */
+@import url(./vars.css);
+@import url(./utils.css);
+
+.top-nav{
+    border-radius: 2.5rem;
+    font-weight: var(--fw-med);
+    font-size: var(--fs-rg);
+    background: var(--clr-blue-310);
+}
+
+.logo{
+    display: flex;
+    margin-right: 2.5rem;
+    color: var(--clr-white);
+    text-decoration: none;
+}
+
+.main-title{
+    font-size: var(--fs-mdl);
+    margin-left: 0.5rem;
+}
+
+.align-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-nav-item{
+    position: relative;
+    list-style-type: none;
+    margin: 0.625rem;
+}
+
+.top-nav-link{
+    display: block;
+    color: var(--clr-white);
+    opacity: 0.6;
+    text-decoration: none;
+    /*transition: 0.3s;*/
+}
+
+.top-nav-link:hover{
+    opacity: 1;
+}
+
+.top-nav-link:hover::after{
+    display: block;
+    content: '\2022';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: var(--clr-blue-200);
+}
+
+.nav-link-border{
+    border: 0.10rem solid rgba(158, 158, 158, 0.5);
+    border-radius: 1.25rem;
+    padding: 0.625rem 1.25rem;
+    opacity: 1;
+}
+
+.nav-link-border:hover{
+    background: var(--clr-blue-300);
+    border: 0.10rem solid var(--clr-blue-300);
+}
+
+.nav-link-border:hover::after{
+    display: none;
+}

@@ -1,0 +1,46 @@
+:root{
+    /* custom properties - constants */
+    --base-fs: 15px;
+    --spacer-xsm: 0.25;
+    --spacer-sm: 0.5;
+    --spacer-md: 1;
+    --spacer-lg: 1.5;
+    --spacer-xlg: 3;
+    /* font & weight */
+    --ff-primary: 'DM Sans';
+    --fw-reg: 400;
+    --fw-med: 500;
+    --fw-bold: 700;
+    --fw-xbold: 900;
+    /* 16 18 20 24 64 80 */
+    /* font sizes */
+    --fs-xsm: 1rem;
+    --fs-sm: 1.125rem;
+    --fs-rg: 1.25rem;
+    --fs-md: 1.5rem;
+    --fs-mdl: 2.125rem;
+    --fs-lg: 4rem;
+    --fs-xlg: 5rem;
+    /* colors */
+    /*  h -> hue/color 0/360, s -> saturation 0/100, l -> lightness 0/100, a -> alpha 0/1 */
+    --clr-white: hsl(0, 0%, 100%);
+
+    --clr-blue-100: hsla(210, 100%, 56%);
+    --clr-blue-200: hsla(223, 100%, 60%);
+    --clr-blue-300: hsla(237, 32%, 26%);
+    --clr-blue-310: hsla(237, 46%, 19%);
+    --clr-blue-320: hsla(237, 68%, 13%);
+    --clr-blue-400: hsla(238, 36%, 26%);
+    --clr-blue-410: hsla(238, 11%, 48%);
+    --clr-blue-500: hsla(240, 33%, 31%);
+    --clr-blue-510: hsla(240, 11%, 88%);
+    
+    --clr-orange-100: hsla(13, 92%, 56%);
+    --clr-orange-200: hsla(14, 89%, 56%);
+    --clr-orange-300: hsla(34, 100%, 50%);
+    --clr-orange-310: hsla(34, 100%, 50%, .2);
+    --clr-orange-400: hsla(42, 100%, 50%);
+
+    --clr-purple-100: hsla(254, 100%, 66%);
+    --clr-green-100: hsla(134, 39%, 64%);
+}
