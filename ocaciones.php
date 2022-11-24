@@ -24,15 +24,15 @@
         <div class="d-flex justify-content-center mt-5">
             <header class="header d-flex justify-content-around align-items-center position-fixed">
                 <div class="d-flex align-items-center">
-                    <a href="principal.html"><img class="logo-size" src="../imgs\GL.png" title="GastroLife" alt="Logo GastroLife"></a>
-                    <a href="principal.html" class="logo-txt title-m">GastroLife</a>
+                    <a href="index.php"><img class="logo-size" src="../imgs\GL.png" title="GastroLife" alt="Logo GastroLife"></a>
+                    <a href="index.php" class="logo-txt title-m">GastroLife</a>
                 </div>
 
 
                 <div class="options">
-                    <a href="principal.html" class="botones-blancos">Inicio</a>
-                    <a href="categorias.html" class="botones-blancos">Categorias</a>
-                    <a href="principal.html" class="botones-blancos">Recetas más votadas</a>
+                    <a href="index.php" class="botones-blancos">Inicio</a>
+                    <a href="categorias.php" class="botones-blancos">Categorias</a>
+                    <a href="principal.php" class="botones-blancos">Recetas más votadas</a>
                 </div>
 
                 <div>
@@ -50,7 +50,7 @@
         <h5 class="botones-verdes">Cumpleaños</h5>
 
         <div class="card-group mt-5">
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
@@ -61,7 +61,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -72,7 +72,7 @@
                     <div class="card-title dificultad">Media</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Desayuno/breakfast-g63652c62f_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -85,7 +85,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Desayuno/pancakes-g82aa2aff9_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
 
@@ -105,7 +105,7 @@
         <h5 class="botones-verdes">Día del Padre</h5>
 
         <div class="card-group mt-5">
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Almuerzo/food-g28e8c6a38_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
@@ -116,7 +116,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Almuerzo/lasagna-gc5add5e7a_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -127,7 +127,7 @@
                     <div class="card-title dificultad">Media</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Almuerzo/pasta.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -140,7 +140,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Almuerzo/sandwich-gfceab6bb2_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
 
@@ -173,7 +173,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Sopas/lentil-soup-with-mixed-ingredients-and-herbs-in-white-bowl-with-spoon.jpg"
                     class="card-img-top" alt="...">
                 <div class="card-body">
@@ -185,7 +185,7 @@
                     <div class="card-title dificultad">Media</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Sopas/pot-of-chili-next-to-mexican-snacks.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -198,7 +198,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Sopas/stewed-mutton-soup-with-corn-and-carrot.jpg" class="card-img-top"
                     alt="...">
                 <div class="card-body">
@@ -220,7 +220,7 @@
         <h5 class="botones-verdes">Día del Niño</h5>
 
         <div class="card-group mt-5">
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Bebidas/carrot-juice-gc058f4e9b_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
@@ -231,7 +231,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Bebidas/coffee-gb632fdde8_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -242,7 +242,7 @@
                     <div class="card-title dificultad">Media</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Bebidas/cup-gec5aef72f_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -255,7 +255,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
 
@@ -275,7 +275,7 @@
         <h5 class="botones-verdes">Navidad</h5>
 
         <div class="card-group mt-5">
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Postres/cake-g66f6e9aba_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
@@ -286,7 +286,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </a></div>
             </div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Postres/chia-g7d70e9d04_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -297,7 +297,7 @@
                     <div class="card-title dificultad">Media</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Postres/eclair-g925148155_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <a href="#"><img src="../imgs/coronas/corona-plata.png" alt="bronce" width="30" height="30">
@@ -310,7 +310,7 @@
                     <div class="card-title dificultad">Fácil</div>
                 </div>
             </a></div>
-            <a href="receta.html"><div class="card">
+            <a href="receta.php"><div class="card">
                 <img src="../imgs/Recetas/Postres/tart-ga3449ac41_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
 
@@ -327,7 +327,7 @@
 
         <!-- footer -->
 
-        <a href="principal.html" class="logo"></a>
+        <a href="index.php" class="logo"></a>
         <center> <img src="../imgs\GL.png" title="GastroLife" width="90" height="90" alt="Logo GastroLife">
         </center>
         <br>

@@ -38,8 +38,8 @@
                         <input autocomplete="off" id="logpass" placeholder="Password" class="input-field" name="logpass"
                             type="password">
                     </div>
-                    <button class="botones-blancos mt-2" type="submit"><a href="registro-recetas.html">Login</a></button>
-                    <a href="f-password.html" class="btn-link">Forgot your password?</a>
+                    <button class="botones-blancos mt-2" type="submit"><a href="registro-recetas.php">Login</a></button>
+                    <a href="f-password.php" class="btn-link">Forgot your password?</a>
                 </form>
             </div>
         </div>

@@ -130,7 +130,7 @@
 
         <div class="card-group mt-5">
             <div class="card">
-                <a href="receta.html"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg"
+                <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg"
                         class="card-img-top" alt="...">
                 </a>
                 <div class="card-body">
@@ -143,7 +143,7 @@
                 </div>
             </div>
             <div class="card">
-                <a href="receta.html"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg"
+                <a href="receta.php"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg"
                         class="card-img-top" alt="...">
                 </a>
                 <div class="card-body">
@@ -157,7 +157,7 @@
 
             </div>
             <div class="card">
-                <a href="receta.html"><img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg"
+                <a href="receta.php"><img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg"
                         class="card-img-top" alt="...">
                 </a>
                 <div class="card-body">

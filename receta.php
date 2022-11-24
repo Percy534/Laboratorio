@@ -28,16 +28,16 @@
   <div class="d-flex justify-content-center mt-5">
     <header class="header d-flex justify-content-around align-items-center position-fixed">
       <div class="d-flex align-items-center">
-        <a href="principal.html"><img class="logo-size" src="../imgs\GL.png" title="GastroLife"
+        <a href="index.php"><img class="logo-size" src="../imgs\GL.png" title="GastroLife"
             alt="Logo GastroLife"></a>
-        <a href="principal.html" class="logo-txt title-m">GastroLife</a>
+        <a href="index.php" class="logo-txt title-m">GastroLife</a>
       </div>
 
 
       <div class="options">
-        <a href="categorias.html" class="botones-blancos">categorias</a>
-        <a href="ocaciones.html" class="botones-blancos">para cada ocacion</a>
-        <a href="principal.html" class="botones-blancos">Recetas más votadas</a>
+        <a href="categorias.php" class="botones-blancos">categorias</a>
+        <a href="ocaciones.php" class="botones-blancos">para cada ocacion</a>
+        <a href="index.php" class="botones-blancos">Recetas más votadas</a>
       </div>
 
       <div class="buscador">
@@ -83,7 +83,7 @@
       </div>
 
       <div class="d-flex ms-4">
-        <a href="categorias.html" class="botones-verdes4">Desayunos</a>
+        <a href="categorias.php" class="botones-verdes4">Desayunos</a>
         <a href="#" class="botones-verdes4">Natural</a>
         <a href="ocaciones.html" class="botones-verdes4">Cumpleaños</a>
         <a href="#" class="botones-verdes4">Mañana</a>
@@ -92,7 +92,7 @@
     </div>
   </div>
 
-  <a href="principal.html" class="logo"></a>
+  <a href="index.php" class="logo"></a>
   <center> <img src="../imgs\GL.png" title="GastroLife" width="90" height="90" alt="Logo GastroLife">
   </center>
   <br>

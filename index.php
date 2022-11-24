@@ -27,16 +27,16 @@
     <div class="d-flex justify-content-center mt-5 ">
       <header class="header d-flex justify-content-around align-items-center position-fixed">
         <div class="d-flex align-items-center">
-          <a href="principal.html"><img class="logo-size" src="../imgs\GL.png" title="GastroLife"
+          <a href="index.php"><img class="logo-size" src="../imgs\GL.png" title="GastroLife"
               alt="Logo GastroLife"></a>
-          <a href="principal.html" class="logo-txt title-m">GastroLife</a>
+          <a href="index.php" class="logo-txt title-m">GastroLife</a>
         </div>
 
 
         <div class="options">
-          <a href="categorias.html" class="botones-blancos">categorias</a>
-          <a href="ocaciones.html" class="botones-blancos">para cada ocacion</a>
-          <a href="principal.html" class="botones-blancos">Recetas más votadas</a>
+          <a href="categorias.php" class="botones-blancos">categorias</a>
+          <a href="ocaciones.php" class="botones-blancos">para cada ocacion</a>
+          <a href="index.php" class="botones-blancos">Recetas más votadas</a>
         </div>
 
         <div class="buscador ">
@@ -93,7 +93,7 @@
 
     <div class="card-group mt-5">
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -106,7 +106,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -119,7 +119,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -134,7 +134,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Almuerzo/lasagna-gc5add5e7a_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Almuerzo/lasagna-gc5add5e7a_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -149,7 +149,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Desayuno/breakfast-g63652c62f_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/breakfast-g63652c62f_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -167,7 +167,7 @@
 
     <div class="card-group mb-5">
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Bebidas/coffee-gb632fdde8_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Bebidas/coffee-gb632fdde8_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -180,7 +180,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img
+        <a href="receta.php"><img
             src="../imgs/Recetas/Sopas/lentil-soup-with-mixed-ingredients-and-herbs-in-white-bowl-with-spoon.jpg"
             class="card-img-top" alt="...">
         </a>
@@ -194,7 +194,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Bebidas/carrot-juice-gc058f4e9b_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Bebidas/carrot-juice-gc058f4e9b_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -210,7 +210,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Almuerzo/pasta.jpg" class="card-img-top" alt="...">
+        <a href="receta.php"><img src="../imgs/Recetas/Almuerzo/pasta.jpg" class="card-img-top" alt="...">
         </a>
         <div class="card-body">
 
@@ -247,7 +247,7 @@
 
     <div class="card-group mt-5">
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -263,7 +263,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -273,7 +273,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Almuerzo/lasagna-gc5add5e7a_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Almuerzo/lasagna-gc5add5e7a_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -282,7 +282,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -291,7 +291,7 @@
       </div>
 
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -309,7 +309,7 @@
 
     <div class="card-group mt-5 mb-5">
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -317,7 +317,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Almuerzo/food-g28e8c6a38_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Almuerzo/food-g28e8c6a38_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -325,7 +325,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img
+        <a href="receta.php"><img
             src="../imgs/Recetas/Sopas/bottom-view-star-soup-in-bowl-on-yellow-tablecloth-on-dark.jpg"
             class="card-img-top" alt="...">
         </a>
@@ -336,7 +336,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Bebidas/cup-gec5aef72f_1920.jpg" class="card-img-top" alt="...">
+        <a href="receta.php"><img src="../imgs/Recetas/Bebidas/cup-gec5aef72f_1920.jpg" class="card-img-top" alt="...">
         </a>
         <div class="card-body">
           </button>
@@ -344,7 +344,7 @@
         </div>
       </div>
       <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Postres/cake-g66f6e9aba_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/Recetas/Postres/cake-g66f6e9aba_1920.jpg" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -357,7 +357,7 @@
 
     <!-- footer -->
 
-    <a href="principal.html" class="logo"></a>
+    <a href="index.php" class="logo"></a>
     <center> <img src="../imgs\GL.png" title="GastroLife" width="90" height="90" alt="Logo GastroLife">
     </center>
     <br>

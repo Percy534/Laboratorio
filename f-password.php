@@ -32,7 +32,7 @@
                             type="password">
 
                     </div>
-                    <button class="botones-blancos mt-2" type="submit"><a href="ingresar.html">send</button>
+                    <button class="botones-blancos mt-2" type="submit"><a href="ingresar.php">send</button>
                 </form>
             </div>
         </div>
