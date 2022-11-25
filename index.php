@@ -70,7 +70,7 @@
 -->
 
 
-  <div id='carouselExampleIndicators' class='carousel slide' data-bs-ride='true'>
+  <div id='carouselExampleIndicators' class='carousel slide mt-5' data-bs-ride='true'>
     <div class='carousel-indicators'>
       <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
       <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2'></button>
@@ -108,16 +108,16 @@
     echo'<div class="card-group mt-5">
 
     <div class="card">
-        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
+        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image', 0].'" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
           <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
-            <span class="badge text-bg-secondary">'.$recipe["recipe_likes"].'</span>
+            <span class="badge text-bg-secondary">'.$recipe["recipe_likes"]., 0'</span>
           </a>
-          <div class="card-title botones-verdes2">'.$recipe["recipe_name"].'</div>
-          <p class="card-text">'.$recipe["recipe_time"].'</p>
-          <div class="card-title dificultad">'.$recipe["id_recipe_level"].'</div>
+          <div class="card-title botones-verdes2">'.$recipe["recipe_name"]., 0'</div>
+          <p class="card-text">'.$recipe["recipe_time"]., 0'</p>
+          <div class="card-title dificultad">'.$recipe["id_recipe_level"]., 0'</div>
         </div>
       </div>';
   }
