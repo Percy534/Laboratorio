@@ -69,9 +69,8 @@
     </div>
 -->
 
-<?php
-  foreach ($recipes as $recipes){
-  echo"<div id='carouselExampleIndicators' class='carousel slide' data-bs-ride='true'>
+
+  <div id='carouselExampleIndicators' class='carousel slide' data-bs-ride='true'>
     <div class='carousel-indicators'>
       <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
       <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2'></button>
@@ -79,7 +78,7 @@
     </div>
     <div class='carousel-inner'>
       <div class='carousel-item active'>
-        <img src='./imgs/".$recipe["recipe_image"]."' class='d-block w-100' alt='...'>
+        <img src='../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg' class='d-block w-100' alt='...'>
       </div>
       <div class='carousel-item'>
         <img src='../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg' class='d-block w-100' alt='...'>
@@ -96,9 +95,8 @@
       <span class='carousel-control-next-icon' aria-hidden='true'></span>
       <span class='visually-hidden'>Next</span>
     </button>
-  </div>"
-  }
-?>
+  </div>
+ 
 
     <!-- top 10 recetas-->
 
@@ -106,7 +104,10 @@
 
 
     <div class="card-group mt-5">
-      <div class="card">
+      
+    <?php
+  foreach ($recipes as $recipes){
+      echo'<div class="card">
         <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
             alt="...">
         </a>
@@ -118,7 +119,9 @@
           <p class="card-text">7 min.</p>
           <div class="card-title dificultad">Fácil</div>
         </div>
-      </div>
+      </div>';
+    }
+    ?>
       <div class="card">
         <a href="receta.php"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
             alt="...">
