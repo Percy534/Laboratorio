@@ -254,7 +254,9 @@
           <div class="card-title dificultad">medio</div>
         </div>
       </div>
-    </div>
+    </div>';
+  }
+  ?>
 
     <!-- Para cada Ocacion -->
 
@@ -368,9 +370,7 @@
           <div class="card-title botones-verdes2">Postres</div>
         </div>
       </div>
-    </div>';
-  }
-  ?>
+    </div>
 
     <!-- footer -->
 
