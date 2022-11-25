@@ -108,7 +108,7 @@
     echo'<div class="card-group mt-5">
 
     <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
+        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
@@ -116,8 +116,8 @@
             <span class="badge text-bg-secondary">100</span>
           </a>
           <div class="card-title botones-verdes2">Avena con arandanos</div>
-          <p class="card-text">7 min.</p>
-          <div class="card-title dificultad">Fácil</div>
+          <p class="card-text">'.$recipe["recipe_time"].'</p>
+          <div class="card-title dificultad">'.$recipe["id_recipe_level"].'</div>
         </div>
       </div>
     
