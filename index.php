@@ -180,7 +180,7 @@
   ?>
 
     <!-- Para cada Ocacion -->
-
+<div>
     <h5 class="botones-verdes">Para cada ocación</h5>
 
 
@@ -241,7 +241,8 @@
     </div>
 
     </div>
-
+    
+    </div>
     <!-- Categorias-->
 
     <h5 class="botones-verdes">Recetas de todo tipo</h5>
