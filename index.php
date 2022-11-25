@@ -140,106 +140,28 @@
       </div>';
     }
     ?>
-    </div>
-
-      <div class="card">
-        <a href="receta.html"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          <div class="card-title botones-verdes2">Cumpleaños</div>
-        </div>
-      </div>
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          </button>
-          <div class="card-title botones-verdes2">Día del padre</div>
-          </button>
-        </div>
-      </div>
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Almuerzo/lasagna-gc5add5e7a_1920.jpg" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          </button>
-          <div class="card-title botones-verdes2">Día de la madre</div>
-        </div>
-      </div>
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          <div class="card-title botones-verdes2">Día del niño</div>
-        </div>
-      </div>
-
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          <div class="card-title botones-verdes2">Navidad</div>
-        </div>
-      </div>
 
     </div>
-
-    </div>
-
+    
     <!-- Categorias-->
 
     <h5 class="botones-verdes">Recetas de todo tipo</h5>
 
     <div class="card-group mt-5 mb-5">
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
+    <?php
+  foreach ($recipes as $recipe){
+      
+  echo'<div class="card">
+        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
-          <div class="card-title botones-verdes2">Desayunos</div>
+          <div class="card-title botones-verdes2">'.$recipe["recipe_category"].'</div>
         </div>
-      </div>
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Almuerzo/food-g28e8c6a38_1920.jpg" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          <div class="card-title botones-verdes2">Almuerzos</div>
-        </div>
-      </div>
-      <div class="card">
-        <a href="receta.php"><img
-            src="../imgs/Recetas/Sopas/bottom-view-star-soup-in-bowl-on-yellow-tablecloth-on-dark.jpg"
-            class="card-img-top" alt="...">
-        </a>
-        <div class="card-body">
-          </button>
-          <div class="card-title botones-verdes2">Sopas</div>
-          </button>
-        </div>
-      </div>
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Bebidas/cup-gec5aef72f_1920.jpg" class="card-img-top" alt="...">
-        </a>
-        <div class="card-body">
-          </button>
-          <div class="card-title botones-verdes2">Bebidas</div>
-        </div>
-      </div>
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Postres/cake-g66f6e9aba_1920.jpg" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
+      </div>';
+    }
+    ?>
 
-          <div class="card-title botones-verdes2">Postres</div>
-        </div>
-      </div>
     </div>
 
     <!-- footer -->
