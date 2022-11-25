@@ -102,12 +102,12 @@
 
     <h5 class="botones-verdes">Recetas mejor valoradas</h5>
 
-
-    <div class="card-group mt-5">
-      
     <?php
   foreach ($recipes as $recipes){
-      echo'<div class="card">
+      
+    echo'<div class="card-group mt-5">
+
+    <div class="card">
         <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
             alt="...">
         </a>
@@ -119,9 +119,8 @@
           <p class="card-text">7 min.</p>
           <div class="card-title dificultad">Fácil</div>
         </div>
-      </div>';
-    }
-    ?>
+      </div>
+    
       <div class="card">
         <a href="receta.php"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
             alt="...">
@@ -369,8 +368,9 @@
           <div class="card-title botones-verdes2">Postres</div>
         </div>
       </div>
-    </div>
-
+    </div>';
+  }
+  ?>
 
     <!-- footer -->
 
