@@ -103,7 +103,7 @@
     <h5 class="botones-verdes">Recetas mejor valoradas</h5>
 
     <?php
-  foreach ($recipes as $recipes){
+  foreach ($recipes as $recipe){
       
     echo'<div class="card-group mt-5">
 
@@ -115,7 +115,7 @@
           <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
             <span class="badge text-bg-secondary">100</span>
           </a>
-          <div class="card-title botones-verdes2">Avena con arandanos</div>
+          <div class="card-title botones-verdes2">'.$recipe["recipe_name"].'</div>
           <p class="card-text">'.$recipe["recipe_time"].'</p>
           <div class="card-title dificultad">'.$recipe["id_recipe_level"].'</div>
         </div>
