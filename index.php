@@ -113,11 +113,11 @@
         </a>
         <div class="card-body">
           <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
-            <span class="badge text-bg-secondary">'.$recipe["recipe_likes"]., 0'</span>
+            <span class="badge text-bg-secondary">'.$recipe["recipe_likes", 0].'</span>
           </a>
-          <div class="card-title botones-verdes2">'.$recipe["recipe_name"]., 0'</div>
+          <div class="card-title botones-verdes2">'.$recipe["recipe_name", 0].'</div>
           <p class="card-text">'.$recipe["recipe_time"]., 0'</p>
-          <div class="card-title dificultad">'.$recipe["id_recipe_level"]., 0'</div>
+          <div class="card-title dificultad">'.$recipe["id_recipe_level", 0].'</div>
         </div>
       </div>';
   }
