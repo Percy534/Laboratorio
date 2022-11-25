@@ -128,7 +128,7 @@
 
     <!-- Para cada Ocacion -->
 
-    <h5 class="botones-verdes">Para cada ocación</h5>
+    <h5 class="botones-verdes mt-5">Para cada ocación</h5>
 
 
     <div class="card-group mt-5">
