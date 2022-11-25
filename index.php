@@ -108,7 +108,7 @@
     echo'<div class="card-group mt-5">
 
     <div class="card">
-        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
+        <a href="receta.php"><img src="../imgs/'.$recipe['recipe_image'].'" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
