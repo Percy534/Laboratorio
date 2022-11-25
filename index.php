@@ -3,7 +3,7 @@
   require 'db.php';
 
   $recipes = $database->select("tb_recipes","*",[
-    'LIMIT' =>17
+    'LIMIT' =>5
 ]);
 
 ?>
