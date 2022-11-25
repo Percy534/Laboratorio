@@ -1,3 +1,13 @@
+<?php
+
+  require 'db.php';
+
+  $recipes = $database->select("tb_recipes","*",[
+    'LIMIT' =>11
+]);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,32 +69,36 @@
     </div>
 -->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg" class="d-block w-100" alt="...">
+<?php
+  foreach ($recipes as $recipes){
+  echo"<div id='carouselExampleIndicators' class='carousel slide' data-bs-ride='true'>
+    <div class='carousel-indicators'>
+      <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' class='active' aria-current='true' aria-label='Slide 1'></button>
+      <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2'></button>
+      <button type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3'></button>
     </div>
-    <div class="carousel-item">
-      <img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="d-block w-100" alt="...">
+    <div class='carousel-inner'>
+      <div class='carousel-item active'>
+        <img src='./imgs/".$recipe["recipe_image"]."' class='d-block w-100' alt='...'>
+      </div>
+      <div class='carousel-item'>
+        <img src='../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg' class='d-block w-100' alt='...'>
+      </div>
+      <div class='carousel-item'>
+        <img src='../imgs/Recetas/Entradas/nachos-5539014_1280.jpg' class='d-block w-100' alt='...'>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="../imgs/Recetas/Entradas/nachos-5539014_1280.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+    <button class='carousel-control-prev' type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev'>
+      <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+      <span class='visually-hidden'>Previous</span>
+    </button>
+    <button class='carousel-control-next' type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next'>
+      <span class='carousel-control-next-icon' aria-hidden='true'></span>
+      <span class='visually-hidden'>Next</span>
+    </button>
+  </div>"
+  }
+?>
 
     <!-- top 10 recetas-->
 
