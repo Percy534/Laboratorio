@@ -3,7 +3,7 @@
   require 'db.php';
 
   $recipes = $database->select("tb_recipes","*",[
-    'LIMIT' =>11
+    'LIMIT' =>17
 ]);
 
 ?>
@@ -102,68 +102,11 @@
 
     <h5 class="botones-verdes">Recetas mejor valoradas</h5>
 
+    <div class="card-group mt-5">
     <?php
   foreach ($recipes as $recipe){
       
-    echo'<div class="card-group mt-5">
-
-    <div class="card">
-        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
-            <span class="badge text-bg-secondary">'.$recipe["recipe_likes"].'</span>
-          </a>
-          <div class="card-title botones-verdes2">'.$recipe["recipe_name"].'</div>
-          <p class="card-text">'.$recipe["recipe_time"].'</p>
-          <div class="card-title dificultad">'.$recipe["id_recipe_level"].'</div>
-        </div>
-      </div>
-      
-      <div class="card">
-        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
-            <span class="badge text-bg-secondary">'.$recipe["recipe_likes"].'</span>
-          </a>
-          <div class="card-title botones-verdes2">'.$recipe["recipe_name"].'</div>
-          <p class="card-text">'.$recipe["recipe_time"].'</p>
-          <div class="card-title dificultad">'.$recipe["id_recipe_level"].'</div>
-        </div>
-      </div>
-
-      <div class="card">
-        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
-            <span class="badge text-bg-secondary">'.$recipe["recipe_likes"].'</span>
-          </a>
-          <div class="card-title botones-verdes2">'.$recipe["recipe_name"].'</div>
-          <p class="card-text">'.$recipe["recipe_time"].'</p>
-          <div class="card-title dificultad">'.$recipe["id_recipe_level"].'</div>
-        </div>
-      </div>
-
-      <div class="card">
-        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
-            alt="...">
-        </a>
-        <div class="card-body">
-          <a href="#"><img src="../imgs/coronas/corona-oro.png" alt="bronce" width="30" height="30">
-            <span class="badge text-bg-secondary">'.$recipe["recipe_likes"].'</span>
-          </a>
-          <div class="card-title botones-verdes2">'.$recipe["recipe_name"].'</div>
-          <p class="card-text">'.$recipe["recipe_time"].'</p>
-          <div class="card-title dificultad">'.$recipe["id_recipe_level"].'</div>
-        </div>
-      </div>
-
-      <div class="card">
+    echo'<div class="card">
         <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
             alt="...">
         </a>
@@ -176,8 +119,9 @@
           <div class="card-title dificultad">'.$recipe["id_recipe_level"].'</div>
         </div>
       </div>';
-  }
-  ?>
+        }
+      ?>
+      </div>
     <!-- Para cada Ocacion -->
     <h5 class="botones-verdes">Para cada ocación</h5>
 
