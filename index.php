@@ -99,7 +99,7 @@
  
 
     <!-- top 10 recetas-->
-<div>
+
     <h5 class="botones-verdes">Recetas mejor valoradas</h5>
 
     <?php
@@ -178,7 +178,6 @@
       </div>';
   }
   ?>
-</div>
     <!-- Para cada Ocacion -->
     <div>
     <h5 class="botones-verdes">Para cada ocación</h5>
@@ -242,7 +241,6 @@
 
     </div>
 
-   
     <!-- Categorias-->
 
     <h5 class="botones-verdes">Recetas de todo tipo</h5>
