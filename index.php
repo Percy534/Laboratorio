@@ -179,9 +179,7 @@
   }
   ?>
     <!-- Para cada Ocacion -->
-    <div>
     <h5 class="botones-verdes">Para cada ocación</h5>
-    </div>
 
     <div class="card-group mt-5">
       <div class="card">
