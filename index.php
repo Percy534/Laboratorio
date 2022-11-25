@@ -124,16 +124,24 @@
       </div>
     <!-- Para cada Ocacion -->
     <h5 class="botones-verdes">Para cada ocación</h5>
-
+    
     <div class="card-group mt-5">
-      <div class="card">
-        <a href="receta.php"><img src="../imgs/Recetas/Desayuno/blueberries-ga412acaf1_1920.jpg" class="card-img-top"
+
+    <?php
+  foreach ($recipes as $recipe){
+      
+  echo'<div class="card">
+        <a href="receta.php"><img src="./imgs/'.$recipe['recipe_image'].'" class="card-img-top"
             alt="...">
         </a>
         <div class="card-body">
-          <div class="card-title botones-verdes2">Todas las recetas</div>
+          <div class="card-title botones-verdes2">'.$recipe["recipe_category"].'</div>
         </div>
-      </div>
+      </div>';
+    }
+    ?>
+    </div>
+
       <div class="card">
         <a href="receta.html"><img src="../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg" class="card-img-top"
             alt="...">
