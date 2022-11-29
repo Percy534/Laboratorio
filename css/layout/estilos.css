@@ -59,7 +59,7 @@ nav a:hover {
         scale: 0.9.9;
     }
 
-    .recipe-img{
+    .col-md card-recipe{
         display: block;
         height: 6.25rem;
         scale: 0.9.9;
