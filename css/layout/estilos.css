@@ -33,7 +33,8 @@ nav a:hover {
         flex-direction: column;
     }
     botones-blancos{
-        padding: 0.1rem;
+        padding: 0rem;
+        max-width: 0.5rem;
     }
 
     /* external css: flickity.css */
