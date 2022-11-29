@@ -59,6 +59,12 @@ nav a:hover {
         scale: 0.9.9;
     }
 
+    .recipe-body{
+
+
+        margin: 0 auto;
+    }
+
     .card-recipe{
         margin-top: 300px;
         height: 400px;
