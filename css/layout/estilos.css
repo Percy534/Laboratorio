@@ -63,11 +63,11 @@ nav a:hover {
 
 
         margin: 0 auto;
+        flex-direction: column;
     }
 
     .card-recipe{
-        margin-top: 300px;
-        height: 400px;
+
         margin: 0 auto;
     }
 
