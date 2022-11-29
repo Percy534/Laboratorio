@@ -61,7 +61,8 @@ nav a:hover {
 
     .recipe-img{
         margin-top: 300px;
-        scale: 0.9.9;
+        height: 400px;
+        width: 400px;
     }
 
     .recipe-text{
