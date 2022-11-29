@@ -59,6 +59,13 @@ nav a:hover {
         scale: 0.9.9;
     }
 
+    .recipe-img{
+        display: block;
+        height: 6.25rem;
+        scale: 0.9.9;
+    }
+
+
     @media screen and (min-width: 768px) {
         .carousel img {
             height: 100px;
