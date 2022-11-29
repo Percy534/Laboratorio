@@ -61,11 +61,12 @@ nav a:hover {
 
     .recipe-body{
         margin: 0 auto;
-        max-width: 80%;
+        max-width: 90%;
     }
 
     .recipe-text{
         margin: 0 auto;
+        max-width: 90%;
     }
 
     @media screen and (min-width: 768px) {
