@@ -63,11 +63,6 @@ nav a:hover {
         margin-top: 300px;
     }
 
-
-    .contenedor{
-        display: flex;
-
-    }
     @media screen and (min-width: 768px) {
         .carousel img {
             height: 100px;
