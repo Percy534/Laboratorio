@@ -60,7 +60,7 @@ nav a:hover {
     }
 
     .recipe-img{
-        top: 50%;
+        top: 500px;
         display: block;
         height: 6.25rem;
         scale: 0.9.9;
