@@ -96,7 +96,6 @@
       <span class='visually-hidden'>Next</span>
     </button>
   </div>
- 
 
     <!-- top 10 recetas-->
 
