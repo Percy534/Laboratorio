@@ -59,11 +59,11 @@ nav a:hover {
         scale: 0.9.9;
     }
 
-    .recipe-img{
-        display: block;
-        height: 6.25rem;
-        scale: 0.9.9;
+    .recipe-body{
+        margin: 0 auto;
+        max-width: 80%;
     }
+
 
 
     @media screen and (min-width: 768px) {
