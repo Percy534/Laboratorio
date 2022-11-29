@@ -64,7 +64,7 @@ nav a:hover {
     }
 
     .col-md recipe-text{
-        margin-top: 300px;
+        margin-top: 10px;
     }
 
     @media screen and (min-width: 768px) {
