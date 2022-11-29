@@ -64,7 +64,7 @@ nav a:hover {
     }
 
     .recipe-text{
-        margin-right: 300px;
+        margin-right: 100px;
     }
 
     @media screen and (min-width: 768px) {
