@@ -1,4 +1,5 @@
 @import url(./base.css);
+@import url(./components.css);
 .logo-txt {
     font-size: 1.7em;
     text-decoration: none;
@@ -30,7 +31,9 @@ nav a:hover {
 @media (max-width:700px) {
     header {
         flex-direction: column;
-
+    }
+    botones-blancos{
+        padding: 0.1rem;
     }
 
     /* external css: flickity.css */
