@@ -63,6 +63,10 @@ nav a:hover {
         margin-top: 300px;
     }
 
+    .col-md recipe-text{
+        margin-top: 300px;
+    }
+
     @media screen and (min-width: 768px) {
         .carousel img {
             height: 100px;
