@@ -60,21 +60,10 @@ nav a:hover {
     }
 
     .recipe-body{
-
-
         margin: 0 auto;
         flex-direction: column;
     }
 
-    .card-recipe{
-
-        margin: 0 auto;
-    }
-
-    .recipe-text{
-        margin-right: 100px;
-        margin: 0 auto;
-    }
 
     @media screen and (min-width: 768px) {
         .carousel img {
