@@ -64,10 +64,7 @@ nav a:hover {
         max-width: 90%;
     }
 
-    .recipe-text{
-        margin: 0 auto;
-        max-width: 90%;
-    }
+
 
     @media screen and (min-width: 768px) {
         .carousel img {
