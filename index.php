@@ -78,10 +78,10 @@
     </div>
     <div class='carousel-inner'>
       <div class='carousel-item active'>
-        <img src='../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg' class='d-block w-100' alt='...'>
+        <img src='../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg' class='d-block w-100' alt='...'>
       </div>
       <div class='carousel-item'>
-        <img src='../imgs/Recetas/Desayuno/waffles-gbfa9ce6a3_1920.jpg' class='d-block w-100' alt='...'>
+        <img src='../imgs/Recetas/Bebidas/kiwi-coctail-gf68605e32_1920.jpg' class='d-block w-100' alt='...'>
       </div>
       <div class='carousel-item'>
         <img src='../imgs/Recetas/Entradas/nachos-5539014_1280.jpg' class='d-block w-100' alt='...'>
